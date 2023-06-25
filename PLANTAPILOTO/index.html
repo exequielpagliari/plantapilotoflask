@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INTA PRO-GRANOS - Innovación en Poscosecha de Granos</title>
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/header-resp.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="icon" type="image/x-icon" href="./img/progranos-cuadrado-transp.png">
+  <link rel="icon" type="image/x-icon" href="./img/progranos-cuadrado-transp.png">
+  <script src="https://kit.fontawesome.com/3e40217e48.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <script src="./js/jquery.js"></script>
+  <script src="./js/tag.js"></script>
+</head>
+
+<body>
+
+<header> <!--Header responsive con hamburguesa-->
+    <nav class="nav">
+        <input type="checkbox" name="" id="nav__checkbox" class="nav__checkbox" />
+        <label for="nav__checkbox" class="nav__toggle">
+            
+          <!-- Menu -->
+            <svg class="menu" viewBox="0 0 448 512" width="100" title="bars">
+                <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+            </svg>
+    
+            <!-- Close -->
+            <svg class="close" viewBox="0 0 384 512" width="100" title="times">
+                <path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+            </svg>
+        </label>
+    
+        <ul class="nav__menu">
+            <li class="menu__logo">
+              <a id="logo-progranos" href="./index.html"><img src="./img/progranos-cuadrado-transp.png" alt=""></a>
+              <a id="logo-inta" href="www.inta.gob.ar"><img src="./img/logo-inta-chico.jpg" alt=""></a>
+            </li>
+
+            <li><a class= "nav_link" href="index.html">Home</a></li>
+            <li><a class= "nav_link" href="plantapiloto.html">Planta piloto</a></li>
+            <li><a class= "nav_link" href="capacitacion.html">Capacitación a distancia</a></li>
+            <li><a class= "nav_link" href= "misionyvision.html">Misión y visión</a></li>
+            <li><a class= "nav_link" href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<!--<header> Header anterior
+    
+    <section class="logo">
+      <a id="logo-progranos" href="./index.html"><img src="./img/progranos-cuadrado-transp.png" alt=""></a>
+      <a id="logo-inta" href="./index.html"><img src="./img/logo-inta-chico.jpg" alt=""></a>
+    </section>
+
+    <nav id="navHeader">
+      <a href="./index.html">Home</a>
+      <a href="./plantapiloto.html">Planta Piloto</a>
+      <a href="./capacitacion.html">Capacitación a distancia</a>
+      <a href="./misionyvision.html">Misión y Visión</a>
+      <a href="./contacto.html">Contacto</a>
+    </nav>
+
+  </header>-->
+
+  <main>
+    <section>
+      <h1 id="page_title">PRO-GRANOS</h1>
+    </section>
+
+    <section class="carrusel">
+      <button class="slide-arrow" id="slide-arrow-prev">
+        &#8249;
+      </button>
+      <button class="slide-arrow" id="slide-arrow-next">
+        &#8250;
+      </button>
+      <section class="slide">
+        <article class="articulo" id="a1">
+
+          <img src="./img/header900.jpg">
+          <section class="banner">
+            <h3>Bienvenidos a PRO-GRANOS</h3>
+
+            <p> PRO-GRANOS nuclea desde INTA Balcarce el esfuerzo de varias
+              instituciones para la investigación, desarrollo, transferencia y capacitación en poscosecha de granos.</p>
+          </section>
+
+        </article>
+
+        <article class="articulo" id="a2">
+          <a href="./plantapiloto.html">
+            <img src="./img/galponprogranos-900.png">
+            <section class="banner">
+              <h3>Planta Piloto</h3>
+              <p>La Planta Piloto tiene como objeto articular las capacidades públicas de investigación con las demandas
+                y exigencias del sector de la poscosecha.</p>
+            </section>
+          </a>
+        </article>
+
+        <article class="articulo" id="a3">
+          <a href="./capacitacion.html">
+            <img src="./img/pantalla.png">
+            <section class="banner">
+              <h3>Capacitación a distancia</h3>
+              <p>El programa de capacitación a distancia acerca los últimos conocimientos en poscosecha de granos a
+                público nacional y extranjero. </p>
+            </section>
+          </a>
+        </article>
+
+        <article class="articulo" id="a4">
+          <a href="./misionyvision.html">
+            <img src="./img/silo-abajo-centrado.png">
+            <section class="banner">
+              <h3>Visión y Misión</h3>
+              <p>Para dar soluciones a problemas complejos hace falta el aporte y coordinación de
+                esfuerzos de numerosos agentes, con enfoque interdisciplinario.</p>
+            </section>
+          </a>
+        </article>
+
+
+        <article class="articulo" id="a5">
+          <a href="./contacto.html">
+            <img src="./img/uib-aerea (1).png">
+            <section class="banner">
+              <h3>Contactános</h3>
+              <p>Comunicáte con nosotros para conocer más sobre PRO-GRANOS.</p>
+            </section>
+          </a>
+        </article>
+      </section>
+
+    </section>
+
+    <section class="info">
+      
+      <section class=" tagiz">
+        <h2>Novedades</h2>
+        <section class="blog">
+          <article>
+            <img src="./img/curso-peru.jpg" alt="">
+            <h4>Curso de semillas en Perú</h4>
+            <p>PRO-GRANOS disertó en el curso virtual internacional "Actualización en ciencia y tecnología para la
+              producción, cosecha,
+              acondicionamiento y almacenamiento de semillas", organizado por INIA, PROSEM y el Ministerio de Desarrollo
+              Agrario y Riego de Perú,
+              del 24 al 27 de abril de 2023. Al Curso asistieron más de 200 personas.</p>
+          </article>
+
+          <article> <img src="./img/parche.jpg" alt="">
+            <h4>Calidad de arroz en Adecoagro</h4>
+            <p>PRO-GRANOS estuvo en las instalaciones de la empresa Adecoagro en Entre Ríos tomando muestras de arroz
+              almacenado en silobolsas,
+              como parte de un trabajo en conjunto para preservar al máximo la calidad de este producto durante el
+              almacenamiento en este tipo de estructuras.
+
+            </p>
+          </article>
+        </section>
+      </section>
+
+      <section class="calendario tag">
+        <h2>Calendario</h2>
+
+        <article>
+          <section id="calenNumber">
+            <h3>2</h3>
+            <h4>Mayo</h4>
+          </section>
+          
+          <section id="calnText">
+            <a href="./docs/aireacion.pdf", target="_blank"><h4>Curso: "Aireación de granos" </h4></a>
+            <p>Inicia el curso a distancia del PRO-GRANOS.</p>
+          </section>
+        
+        </article>
+
+        <article>
+          <section id="calenNumber">
+            <h3>29</h3>
+            <h4>Mayo</h4>
+          </section>
+          
+          <section id="calnText">
+            <a href="./docs/insectos.pdf", target="_blank"><h4>Curso: "Control de Plagas e Inocuidad"</h4></a>
+            <p>Inicia el curso a distancia del PRO-GRANOS.</p>
+          </section>
+        </article>
+
+        <article>
+          <section id="calenNumber">
+            <h3>7</h3>
+            <h4>Junio</h4>
+          </section>
+          <section id="calnText">
+            <a href= "https://www.graintrade.org.au/conferences-events/australian-grain-storage-protection-conference-2023", 
+            target="_blank"><h4>NWPGP 2023</h4></a>
+            <p>Inicia la "Australian Grain Storage & Protection Conference".</p>
+          </section>
+        </article>
+
+      </section>
+    </section>
+
+    <!---
+    <div class="flotante" id="app">
+      <section id="flecha">
+      <button class="slide-arrow" id="slide-arrow-next">
+        &#8250;
+      </button>
+    </section>
+    <section id="data">
+      <h4>{{pais}}</h4>
+      <h4>{{localidad}}</h4>
+      <h4>{{provincia}}</h4>
+      <h4>{{fechaYHora}}</h4>
+    </section>
+  </div>
+
+  -->
+  </main>
+
+  <footer>
+
+    <section id="footer_info">
+      <nav id="footer_links">
+        <h4>Links Rápidos</h4>
+        <a class="linkFoo" href="./index.html">Home</a>
+        <a class="linkFoo" href="./plantapiloto.html">Planta Piloto</a>
+        <a class="linkFoo" href="./capacitacion.html">Capacitación a distancia</a>
+        <a class="linkFoo" href="./contacto.html">Contacto</a>
+        <a class="linkFoo" href="./misionyvision.html">Visión y Misión</a>
+        <a class="linkFoo" href="www.inta.gob.ar">INTA</a>
+      </nav>
+
+
+      <section>
+        <h4>Contactános</h4>
+        <ul>
+          <li>Ruta 226, km 73,5, Balcarce</li>
+          <li>Buenos Aires, Argentina</li>
+          <li>02266 43-9100</li>
+        </ul>
+        <nav class="rrss">
+          <a  target="_blank" href="https://www.facebook.com/poscosechadegranos/"><i id="iFacebook" class="fa-brands fa-square-facebook"></i></a>
+          <a target="_blank" href="./contacto.html"><i id="iMail" class="fa-solid fa-envelope"></i></a>
+          <a target="_blank" href="https://ar.linkedin.com/in/grupo-de-poscosecha-de-granos-inta-190b63173"><i id="iLinkedin" class="fa-brands fa-linkedin"></i></a>
+        </nav>
+      </section>
+    </section>
+
+
+
+    <section id="copyright">
+      <p>2023 - Todos los Derechos Reservados. Las marcas y logos de INTA.</p>
+      <div id="app">
+      <p>En {{localidad}}, {{pais}}, hoy es {{dia}}/{{mes}}/{{anio}} y la hora es {{hora}}.</p>
+    </div>
+    </section>
+  </div>
+
+
+
+  </footer>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="./js/conApiCalen.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

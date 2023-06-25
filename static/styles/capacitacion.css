@@ -1,0 +1,210 @@
+
+
+* {
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+
+/* Formato de Título principal*/
+
+#page_title {
+  z-index: 19;
+  color: #F2F2F2;
+  padding: 70px 15px 70px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom, #1B8CA6, #02734A);;
+  border-bottom: #02734A solid 10px;
+  float:center;
+}
+
+/* Imagen principal de la página */
+
+.center {
+  border: #F2F2F2 10px solid;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+  float: center;
+  margin-top: -120px;
+  object-fit: cover;
+}
+
+/* Formato de Títulos secundarios y párrafos*/
+
+#h2 {
+  color: rgb(2 115 74); 
+  padding: 5rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+p {
+  color: #242527;
+  padding: 1rem 2rem;
+  text-align: justify;
+  font-size: medium;
+}
+
+/*Sección "Catálogo de Cursos"*/
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem 3rem;
+  }
+
+  /* Diseño de cards individuales*/
+
+.card {
+  background-color: #f1f1f1;
+  width: calc(20% - 20px);
+  margin: 10px auto;
+  padding: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  transition: 0.3s;
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  }
+
+ .card img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+  .card h5 {
+    padding: 0.5rem;
+    color: #1B8CA6;
+    text-align: center;
+    text-decoration: none;
+
+    }
+
+.card:hover { 
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+ }
+
+ #link {
+  text-decoration: none;
+ }
+
+ @media (max-width: 768px) {/*media query para vista en tablet y celular*/
+  .card {
+    width: 70%;
+  }
+}
+
+/*Botón de inscricpción*/
+
+#boton-inscripcion {
+  display: block; /* Mostrar como bloque */
+  margin: 2rem auto; /* Establecer margen automático en los lados */
+  background-color: #038C5A; /* Color de fondo */
+  border: none; /* Borde sin estilo */
+  text-decoration: none;
+  border-radius: 0.5rem; 
+  color: white; /* Color del texto */
+  padding: 15px 32px; /* Espaciado alrededor del texto */
+  text-align: center; /* Centrar el texto */
+  text-decoration: none; /* Quitar subrayado del texto */
+  font-size: 20px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+}
+
+/*Ribbons*/
+
+.ribbon-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+}
+
+#ribbon-finalizado {
+  position: absolute;
+  top: 15px;
+  left: -30px;
+  background-color: #f00;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 40px;
+  transform: rotate(-40deg);
+  z-index: 1;
+}
+
+#ribbon-abierto {
+  position: absolute;
+  top: 20px;
+  left: -40px;
+  background-color: yellow;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 5px 40px;
+  transform: rotate(-40deg);
+  z-index: 1;
+}
+
+/*Acordeón*/
+
+.accordion {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 10px;
+  max-width: 1000px;
+  margin: 0 auto; 
+}
+
+.panel {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.panel-header {
+  background-image: linear-gradient(to right, #1B8CA6, #038C5A);
+  color: white;
+  padding: 15px;
+  font-size: 1.2em;
+}
+
+.panel-content {
+  padding: 0px;
+  font-size: 1.1em;
+  line-height: 1.5;
+  }
+
+.div {
+  margin: 0;
+  padding: 0;
+}
+
+footer section p {
+  margin: 0;
+}
+@media (max-width: 768px) { /*para vista del acordeón en celular*/
+    .accordion {
+      max-width: 90%;
+    }
+    
+    .accordion {
+      grid-template-columns: 1fr;
+    }
+  }
+  
